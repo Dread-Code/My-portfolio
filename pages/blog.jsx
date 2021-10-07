@@ -21,7 +21,6 @@ const PostCard = post => (
 )
 
 const blog = () => {
-  console.log(posts)
   return (
     <Layout title="My Blog" footer={false} dark>
       <div className="row">

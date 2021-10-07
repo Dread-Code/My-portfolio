@@ -9,7 +9,6 @@ const post = () => {
   } = useRouter()
 
   const post = posts.filter(({ title: t }) => t === title)[0]
-  console.log(post)
   return (
     <Layout title={post.title}>
       <div className="text-center">
